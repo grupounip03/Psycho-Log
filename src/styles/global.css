@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body {
+    background-color: #fff;
+    color: #000;
+   
+}
+  
+header {
+    padding: 1rem;
+    transition: background 0.2s linear;
+    
+}
+
+.botao-dark-mode {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+  
+.primeira-section {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.primeira-section-imagem {
+    width: 345px;
+    height: 228px;
+    cursor: pointer;
+
+}
+
+.primeira-section-crimes-macabros {
+    color: #ED5A5A; 
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.primeira-section-subtitulo {
+    font-size: 1.4rem;
+    font-family: 'Patua One', cursive;
+}
+
+.primeira-section-publicado {
+    font-size: 0.9rem;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    color: #666666;
+}
+
+.primeira-section-texto-introdutorio {
+    text-justify: left;
+    font-family: 'Cabin', sans-serif;
+}
+
+.paragrafo-botao-oculto {
+    opacity: 0;
+}
+
+#btnLeiaMais {
+    width: 100%;
+    margin-bottom: 2rem;
+    background: linear-gradient(to left, #ED5A5A, #ECA0A0, #E85858, #694747, #B54545);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+.segunda-section {
+    display: none;
+}
+
+
+
